@@ -11,8 +11,7 @@ public class Lab1 {
             } else if (i % 5 == 0) {
                 printString("Buzz");    
             } else {
-                String j = String.valueOf(i); 
-                printString(j);
+                printString(String.valueOf(i));
             }
         }
     }
